@@ -1,0 +1,334 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.HeaderMenu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 270px;
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.HeaderMenuItem {
+    color: #828282;
+}
+
+hr {
+    width: 900px;
+    margin-left: 270px;
+
+}
+
+.HeaderMenuItem:hover {
+    color: black;
+    cursor: pointer;
+} 
+
+.HeaderMenuItem1:hover {
+    color: black;
+    cursor: pointer;
+} 
+
+.HeaderDescription {
+    display: flex;
+}
+
+.HeaderDescriptionTitle {
+    font-size: 47.3392px;
+    color: #070707;
+    margin-left: 250px;
+}
+
+.HeaderDescriptionText {
+    font-size: 18px;
+    color: #070707;
+    position: absolute;
+    left: 690px;
+    top: 110px;
+}
+
+.HeaderDescriptionImg {
+    position: absolute;
+    left: 250px;
+    top: 280px;
+}
+
+.MainAbout {
+    margin-top: 600px;
+    height: 505px;
+    background-color: #F6F6F6;
+}
+
+.MainAboutTitle {
+    font-size: 34px;
+    text-align: center;
+    color: #070707;
+    padding-top: 100px;
+}
+
+.MainAboutText {
+    font-size: 18px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    height: 218px;
+}
+
+.MainAboutText1 {
+    padding-bottom: 20px;
+}
+
+.MainAboutText2 {
+    padding-bottom: 20px;
+}
+
+.MainAboutText3 {
+    padding-bottom: 20px;
+}
+
+.MainSkills {
+    height: 550px;
+}
+
+.MainSkillsTitle {
+    font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+}
+
+.MainSkillsSubTitle {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+}
+
+.MainSkillsImg {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 245px;
+    margin-right: 245px;
+    margin-top: 100px;
+}
+
+.MainPortfolio {
+    height: 2750px;
+    background-color: #F6F6F6;
+}
+
+.MainPortfolioTitle {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 112px;
+}
+
+.MainPortfolioFashion {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-left: 257px;
+    padding-right: 277px;
+    padding-top: 203px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.MainPortfolioFashion a {
+    color: #070707;
+    padding-top: 40px;
+}
+
+.MainPortfolioReebok {
+    text-align: center;
+    padding-bottom: 200px;
+    margin-left: 257px;
+    padding-right: 257px;
+    padding-top: 203px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.MainPortfolio a {
+    color: #070707;
+    padding-top: 40px;
+}
+
+.MainPortfolioBraun {
+    text-align: center;
+    padding-bottom: 200px;
+    margin-left: 257px;
+    padding-right: 257px;
+    padding-top: 203px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.FooterContacts {
+height: 500px;
+}
+
+.Message {
+    border-radius: 25px;
+    background-color: #070707;
+    width: 180px;
+    height: 42px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 620px;
+    margin-top: 50px;
+}
+
+.FooterContactsTitle {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.FooterContactsSubTitle {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.ContactsLinks {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.FooterContactsLike {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-top: 50px;
+}
+
+.TabletAdaptive {
+    display: none;
+}
+
+@media (max-width:768px) {
+
+    .TabletAdaptive {
+        display: inline;
+    }
+
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .notebook {
+        display: none;
+    }
+     
+    .headerTablet {
+        height: 550px;
+        background-color: #ffffff;
+    }
+
+    .BurgerBtn {
+        position: absolute;
+        width: 33px;
+        height: 19.19px;
+        left: 700px;
+        top: 50px;
+    }
+
+    .HeaderTitleTablet {
+        position: relative;
+        top: 0px;
+        left: 100px;
+        font-size: 50px;
+    }
+
+    .HeaderSubTitleTablet {
+        position: absolute;
+        top: 50px;
+        left: 400px;
+        font-size: 20px;
+    }
+
+    .HeaderTabletImg {
+        width: 768px;
+        margin-top: 20px;
+    }
+
+    .mainTabletAbout {
+        background-color: #f6f6f6;
+    }
+
+    .MainSkillsImgTablet {
+        width: 768px;
+        margin-top: 70px;
+        margin-left: 55px;
+    }
+
+    .MainSkillsTitle {
+        font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-top: 100px;
+    }
+    
+    .MainSkillsSubTitle {
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-top: 50px;
+
+    }
+    
+
+    .MainPortfolioFashion {
+        width: 600px;
+        margin-left: -180px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+
+    }
+
+    .MainPortfolioReebok {
+        width: 600px;
+        margin-left: 80px;
+        margin-right: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+
+    }
+
+    .MainPortfolioBraun {
+        width: 600px;
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-right: 0px;
+    }
+
+    .Message {
+        margin-left: 300px;
+    }
+
+}
+
+
+
+
+
+
+
